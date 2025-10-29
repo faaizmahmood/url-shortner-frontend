@@ -1,8 +1,22 @@
-# React + Vite
+# MERN URL Shortener – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A URL shortener web app where users can create short links, track clicks, share URLs, and sign in using Google OAuth.
 
-Currently, two official plugins are available:
+## ✅ Why I Built This
+I built this project to understand how real URL shortening services work — custom slugs, redirects, analytics, authentication, and dashboards.  
+It also helped me learn secure login flows with **JWT + Google OAuth**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- **Frontend:** React.js, Bootstrap
+- **State Management:** Redux
+- **Authentication:** JWT + Google OAuth (Google Sign-In)
+- **API:** Node.js & Express backend
+- **Deployment:** Vercel
+
+## ✨ Features
+- ✅ Shorten long URLs into unique short links  
+- ✅ Login / Signup with Email + Google  
+- ✅ Dashboard to view all shortened links  
+- ✅ Copy/share short URLs with one click  
+- ✅ Track number of visits/clicks  
+- ✅ Fully responsive UI
